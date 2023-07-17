@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.header .logo img {
+    width: 100%;
+    height: 200px;
+    margin-left: 40px;
+}
+.header .search-form {
+    position: absolute;
+    left: 130%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.header .search-form input {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 150%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.header .search-form ::placeholder {
+    color: black;
+}
+.header .search-form label {
+    font-size: 25px;
+    margin-left: 10px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.header .search-form label:hover {
+    background: #213363;
+    color: #fff;
+}
+.header .phone {
+    position: absolute;
+    left: 420%;
+    width: 100%;
+    margin-bottom: 50%;
+    font-size: 15px;
+    color: #213363;
+}
+.header .location {
+    position: absolute;
+    left: 480%;
+    width: 100%;
+    margin-bottom: 50%;
+    font-size: 15px;
+    color: #213363;
+}
+.header .sign-up-form {
+    position: absolute;
+    margin-bottom: 50%;
+    left: 570%;
+    width: 100%;
+    font-size: 15px;
+    color: #213363;
+}
+.header .sign-up-form a {
+    text-decoration: none;
+}
+.header .cart {
+    position: absolute;
+    left: 555%;
+    width: 100%;
+}
+.header .cart button {
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background:#fff;
+    cursor: pointer;
+}
+.header .cart button:hover {
+    background: #213363;
+    color: #fff;
+}
